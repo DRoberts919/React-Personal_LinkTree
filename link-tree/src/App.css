@@ -1,0 +1,25 @@
+.App {
+  height: 100vh;
+
+  background-image: linear-gradient(
+    to right bottom,
+    #053732,
+    #006449,
+    #00924f,
+    #56c043,
+    #a8eb12
+  );
+}
+
+/* topper css */
+
+.topper {
+  padding-top: 25%;
+}
+
+.avatar {
+  margin: 0 auto;
+
+  width: 50;
+  height: 50;
+}
