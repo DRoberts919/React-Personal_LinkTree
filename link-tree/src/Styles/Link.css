@@ -1,0 +1,44 @@
+.Link {
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.Button {
+  width: 75%;
+
+  border-radius: 20px;
+
+  border: 1px solid #fff;
+
+  transition: background-color 0.4s linear;
+}
+
+.LinkedIn {
+  transition: background-color 0.4s linear;
+}
+
+.LinkedIn:hover {
+  background-color: #0077b5;
+}
+
+.label::after {
+  position: absolute;
+  transform: translateX(0) translateY(0);
+  transition: transform 1s ease-in-out;
+  content: "?";
+}
+
+.label::hover {
+  transform: translateX(20px);
+}
+
+a::after {
+  position: absolute;
+  transform: translateX(0) translateY(0);
+  transition: transform 1s ease-in-out;
+  content: "?";
+}
+
+a::after:hover {
+  transform: translateX(20px);
+}

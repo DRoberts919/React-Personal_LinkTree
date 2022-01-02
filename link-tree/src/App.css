@@ -5,16 +5,16 @@
     to right bottom,
     #053732,
     #006449,
-    #00924f,
-    #56c043,
-    #a8eb12
+    #0dbdd4,
+    #1f51af,
+    #3a12eb
   );
 }
 
 /* topper css */
 
 .topper {
-  padding-top: 25%;
+  padding-top: 15%;
 }
 
 .avatar {
@@ -22,4 +22,10 @@
 
   width: 50;
   height: 50;
+}
+
+
+.Topper-name{
+  text-align: center;
+  /* margin: 0 auto; */
 }
